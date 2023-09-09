@@ -1,50 +1,36 @@
-===============================================================================
-                            ETHERNAUT CTF WRITE-UPS
-===============================================================================
+# Ethernaut CTF Write-ups with Hardhat
 
-This repository contains my solutions and write-ups for the Ethernaut CTF 
-challenges by OpenZeppelin.
+This repository contains my solutions and write-ups for the Ethernaut CTF challenges by OpenZeppelin, developed and tested using the Hardhat Ethereum development environment.
 
--------------------------------------------------------------------------------
+### Introduction
 
-TABLE OF CONTENTS
------------------
-1. Introduction
-2. Challenges
-3. Usage
+Ethernaut is a Web3/Solidity based wargame played in the Ethereum Virtual Machine. Each level is a smart contract that needs to be 'hacked'. The challenges are designed to teach Ethereum principles and concepts. This repository uses Hardhat to streamline the development, testing, and deployment of these solutions.
 
 
--------------------------------------------------------------------------------
+### Challenges
 
-1. INTRODUCTION
----------------
-Ethernaut is a Web3/Solidity based wargame inspired by over-the-wire.org, 
-played in the Ethereum Virtual Machine. Each level is a smart contract that 
-needs to be 'hacked'. The challenges are designed to teach Ethereum principles 
-and concepts in a fun and engaging way.
-
--------------------------------------------------------------------------------
-
-2. CHALLENGES
-------------
 Below are the challenges I've completed:
-- Hello
-- Fallback
-- Fallout
-- Telephone
 
+- Hello :: [readme on medium](https://medium.com/@kanaksasak)
+- Fallback :: [readme on medium](https://medium.com/@kanaksasak)
+- Fallout :: [readme on medium](https://medium.com/@kanaksasak)
+- Telephone :: [readme on medium](https://medium.com/@kanaksasak)
 
--------------------------------------------------------------------------------
+## Installation
 
-3. USAGE
--------
-a. Clone the repository:
-   git clone https://github.com/KanakSasak/ethernautWriteup.git
+- Run the Hardhat network
 
-b. Navigate to the challenge directory:
-   cd ethernautWriteup/scripts
+```bash
+  npx hardhat node
+```
 
-c. Read the README.txt for the specific challenge to understand the solution.
+- Deploy and test the solutions on the Hardhat network:
 
--------------------------------------------------------------------------------
+```bash
+  npx hardhat run scripts/<ctf case>.js --network localhost
+```
+    
+## Authors
+
+- [@kanaksasak](https://www.github.com/kanaksasak)
 
